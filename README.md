@@ -1,4 +1,1 @@
-O aplicativo da Easy Fruit funciona como um mercado online aonde empresas de pequenos portes possam se destacar nas vendas de seus produtos
-
-Nosso site disponibiliza que estas empresas atinjam de forma mais fácil o cliente, sendo eles lojas e até mesmo pessoas que precisam daquele produto.
-Ele funciona de forma fácil e simples, sendo responsivel para todas as plataformas de acesso, de Televisões até mesmo smartphone.
+O site tem como objetivo conectar o mini, pequeno e médio produtor rural com os clientes finais de sua região. Criando um vínculo com a necessidade dos pequenos e médios estabelecimentos das cidades, que utilizam muitos alimentos produzidos próximo de sua região e a vontade do produtor rural de vender seus produtos de forma rápida e mais lucrativa. Em nosso site o produtor pode se cadastrar para vender e o empresário pode comprar suas mercadorias de forma rápida e segura.
