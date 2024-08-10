@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--link do css-->
+    <link rel="stylesheet" href="main.css">
+    <!--link do boxicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="icon" href="/img/icon16.png">
+    <title>EasyFruit</title>
+</head>
+<body>
+    <!--Barra de Navegação-->
+    <header>
+        <a href="/main/main.html" class="logo"><i class='bx bxs-leaf'></i><span>Easy</span>Fruit</a>
+
+        <!--Icone do Menu-->
+        <div class="bx bx-menu" id="menu-icon"></div>
+            <!--Lista de Navegação-->
+            <ul class="navbar">
+                <li><a href="/main/main.html" class="home-active">Inicio</a></li>
+                <li><a href="#categories">Categorias</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#customers">Avaliações</a></li>
+                <li><a href="/shop/shop.html" class="shop-active">Lojas</a></li>
+            </ul>
+
+            <!--Perfil-->
+            <div class="profile">
+                <img src="/img/profile.jpg" alt="">
+                <span>Kauan Henrique</span>
+                <i class='bx bx-caret-down'></i>
+            </div>
+    </header>
+
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">    
+            <!--Slide 1-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>EasyFruit</span>
+                    <h1>Escolha com os melhores. <br> A melhor em vendas de Orgânicos. <br> Melhores opções.</h1>
+                    <a href="/shop/shop.html" class="btnbuy">Compre Agora<i class='bx bxs-right-arrow-alt'></i></a>
+                </div>
+                <img src="/img/menu1.png" alt="" class="img1">
+            </div>
+            <!--Slide 2-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>EasyFruit</span>
+                    <h1>Escolha com os melhores <br> A melhor em vendas de Orgânicos <br> Melhores opções</h1>
+                    <a href="#" class="btnbuy">Compre Agora<i class='bx bxs-right-arrow-alt'></i></a>
+                </div>
+                <img src="/img/menu2.png" alt="" class="img2">
+            </div>
+            <!--Slide 3-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>EasyFruit</span>
+                    <h1>Escolha com os melhores <br> A melhor em vendas de Orgânicos <br> Melhores opções</h1>
+                    <a href="#" class="btnbuy">Compre Agora<i class='bx bxs-right-arrow-alt'></i></a>
+                </div>
+                <img src="/img/menu3.png" alt="" class="img3">
+            </div>
+
+        </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+    </section>
+    <!--Categorias-->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Navegue em Nossas <br><span>Melhores Categorias</span></h1>
+            <a href="/lojas/lojas.html" class="btn">Ver Lojas<i class='bx bxs-right-arrow-alt'></i></a>
+        </div>
+        <!--Container-->
+        <div class="categories-conatiner">
+            <!--Caixa 1-->
+            <div class="box box1">
+                <a href="/vegetable/vegetable.html"><img src="/img/find1.png" alt=""></a>
+                <h2>Verduras</h2>
+                <span>27 Lojas</span>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+            <!--Caixa 2-->
+            <div class="box box2">
+                <a href="/fruits/fruits.html"><img src="/img/find2.png" alt=""></a>
+                <h2>Frutas</h2>
+                <span>31 Lojas</span>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+            <!--Caixa 3-->
+            <div class="box box3">
+                <a href="/salad/salad.html"><img src="/img/find3.png" alt=""></a>
+                    <h2>Saladas</h2>
+                <span>22 Lojas</span>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+            <!--Caixa 4-->
+            <div class="box box4">
+                <a href="/pimentas/pimentas.html"><img src="/img/find4.png" alt=""></a>
+                <h2>Pimentas</h2>
+                <span>19 Lojas</span>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+            <!--Caixa 5-->
+            <div class="box box5">
+                <a href="/shop/shop.html"><img src="/img/find5.png" alt=""></a>
+                <h2>Lojas</h2>
+                <span>+99 Lojas</span>
+                <i class='bx bxs-right-arrow-alt'></i>
+            </div>
+        </div>
+    </section>
+    <!--Produtos-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Nossos produtos <br><span>Populares</span></h1>
+            <a href="#" class="btn">Comprar<i class='bx bxs-right-arrow-alt'></i></a>
+        </div>
+        <!--Caixas de Produtos-->
+        <div class="products-conatiner">
+            <!--Produto 1-->
+            <div class="box">
+                <img src="/img/p1.png" alt="">
+                <span>Alfaces</span>
+                <h2>Fazendo do Mineiro <br>Campo Largo</h2>
+                <h3 class="price">R$ 1,99 <span>/pç</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-20%</span>
+            </div>
+            <!--Produto 2-->
+            <div class="box">
+                <img src="/img/p2.png" alt="">
+                <span>Tomates</span>
+                <h2>Verduras do Zé <br>Laranjeiras do Sul</h2>
+                <h3 class="price">R$ 4,99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!--Produto 3-->
+            <div class="box">
+                <img src="/img/p3.png" alt="">
+                <span>Laranjas</span>
+                <h2>Frutaria da Marcia <br>Piraquara</h2>
+                <h3 class="price">R$ 6,99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-15%</span>
+            </div>
+            <!--Produto 4-->
+            <div class="box">
+                <img src="/img/p4.png" alt="">
+                <span>Cenouras</span>
+                <h2>Mercearia do Claudio <br>Curitiba</h2>
+                <h3 class="price">R$ 5,99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-30%</span>
+            </div>
+            <!--Produto 5-->
+            <div class="box">
+                <img src="/img/p5.png" alt="">
+                <span>Pimentão</span>
+                <h2>Picantes do Junior <br>São José dos Pinhais</h2>
+                <h3 class="price">R$ 8,99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-10%</span>
+            </div>
+            <!--Produto 6-->
+            <div class="box">
+                <img src="/img/p6.png" alt="">
+                <span>Batatas</span>
+                <h2>Verduras do Renato <br>Fazenda Rio Grande</h2>
+                <h3 class="price">R$ 3,99 <span>/kg</span></h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-35%</span>
+            </div>
+        </div>
+    </section>
+    <!--Sobre-->
+    <section class="about" id="about">
+        <img src="/img/about.png" alt="">
+        <div class="about-text">
+            <span>Sobre nós</span>
+            <p>Somos uma empresa que conecta o mini, pequeno e médio produtor rural com os clientes finais de sua região. Nosso objetivo é criar um vínculo com a necessidade dos pequenos e médios estabelecimentos das cidades, que utilizam muitos alimentos produzidos próximo de sua região e a vontade do produtor rural de vender seus produtos de forma rápida e mais lucrativa. Tudo isso sem incluir um intermediário, fazendo com que os dois extremos dessa linha (tanto o produtor rural, quanto os estabelecimentos urbanos) se beneficiem com isso, um pagando menos e o outro recebendo mais.<p>
+            <p>Cadastre-se em nosso site e venha ser um parceiro da EasyFruit</p>
+            <a href="#" class="btnmore">Faça Parte<i class='bx bxs-right-arrow-alt'></i></a>
+        </div>
+    </section>
+    <!--Avaliações-->
+    <section class="customers" id="customers">
+        <h2>Avaliações de <span>Nossos Clientes</span>.</h2>
+        <!--Conteudo das Avaliações-->
+        <div class="customers-container">
+            <!--Avaliação 1-->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>Ser parceiro do EasyFruit me possibilitou vender meus produtos com uma margem de lucro maior e rapidez muito eficiente</p>
+                <div class="review-profile">
+                    <img src="/img/perso1.jpg" alt="">
+                    <h3>Paulo Ricardo</h3>
+                </div>
+            </div>
+            <!--Avaliação 2-->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>Ser parceiro Easyxxxx melhorou a qualidade de meus produtos. Agora meus clientes comem frutas e verduras sempre fresquinho e saboroso.</p>
+                <div class="review-profile">
+                    <img src="/img/perso2.jpg" alt="">
+                    <h3>Natalia Nobrega</h3>
+                </div>
+            </div>
+            <!--Avaliação 3-->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>Com a EasyFruit escolho meus produtos orgânicos com facilidade e procedência garantida!</p>
+                <div class="review-profile">
+                    <img src="/img/perso3.jpg" alt="">
+                    <h3>Eduardo Mateus</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Rodapé-->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="/main/main.html" class="logo"><i class='bx bxs-leaf'></i><span>Easy</span>Fruit</a>
+            <p>Loja Virtual, Sede em Curitiba <br>Elza Schener Moro</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h2>Categorias</h2>
+            <a href="/fruits/fruits.html">Frutas</a>
+            <a href="/vegetable/vegetable.html">Verduras</a>
+            <a href="/vegetable/vegetable.html">Saladas</a>
+            <a href="/pimentas/pimentas.html">Picantes</a>
+        </div>
+        <div class="footer-box">
+            <h2>Links Externos</h2>
+            <a href="#">Torne-se Vendedor</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Patrocinadores</a>
+            <a href="#">Dúvidas Frequentes</a>
+        </div>
+        <div class="footer-box">
+            <h2>Novidades</h2>
+            <p>Fique por dentro das Novidades e descontos pelo Seu Email</p>
+            <form action="">
+                <i class='bx bxs-envelope' ></i>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email">
+                <button type="submit"><i class='bx bx-arrow-back bx-rotate-180' ></i></button>
+            </form>
+        </div>
+    </section>
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Elza Schener Moro Todos os Diretos Reservados</p>
+    </div>
+</body>
+</html>
